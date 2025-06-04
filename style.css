@@ -13,7 +13,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background:#FFD3A6;
+    background:#C1E1C1;
 }
 
 .flipbook {
@@ -22,8 +22,8 @@ body {
 }
 
 .flipbook .hard {
-    background:#FFA6C9 !important;
-    color: #fff;
+    background:#FFD1DC !important;
+    color: #ffff00;
     font-weight: bold;
     border: none; 
 }
@@ -71,8 +71,8 @@ body {
 /* Responsive styles for mobile devices */
 @media only screen and (max-width: 767px) {
     .flipbook {
-        width: 390px;
-        height: 450px;
+        width: 365px;
+        height: 425px;
     }
     
     .page img {
@@ -87,10 +87,3 @@ body {
         font-size: 12px;
     }
 }
-/* 
-@media only screen and (max-width: 480px) {
-    .flipbook {
-        width: 320px;
-        height: 400px;
-    }
-} */
